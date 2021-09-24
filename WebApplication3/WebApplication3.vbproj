@@ -92,6 +92,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TimeAccess.aspx" />
     <Content Include="TimeAccess.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -114,6 +115,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TimeAccess.aspx.designer.vb">
+      <DependentUpon>TimeAccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TimeAccess.aspx.vb">
+      <DependentUpon>TimeAccess.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="WebForm1.aspx.designer.vb">
       <DependentUpon>WebForm1.aspx</DependentUpon>
